@@ -1,0 +1,22 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "particles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efrenmarin45/devPortfolio.git"
+  },
+  "author": "Efren Marin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efrenmarin45/devPortfolio/issues"
+  },
+  "homepage": "https://github.com/efrenmarin45/devPortfolio#readme",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
