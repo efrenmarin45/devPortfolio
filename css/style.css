@@ -1,0 +1,203 @@
+body{
+    background-color: #92defd;
+}
+
+.particleBG{
+    background-color: black;
+}
+
+.navbar{
+    background: transparent;
+}
+
+
+
+.navbar-brand{
+    color: white;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+
+section{
+    height: 100vh;
+    display: flex;
+}
+
+
+.container{
+    margin: auto;
+}
+
+#particles-js{
+    position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+#typewriter{
+    position: absolute;
+	top: 40%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	max-width: 100%;
+	/* padding: 1em 2em; */
+	background: rgba(0, 0, 0, 0.1);
+	text-shadow: 0px 0px 2px #131415;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+
+
+#typewriter p{
+    letter-spacing: 0.1rem;
+}
+
+
+
+p{
+    color: white;
+}
+
+
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: white;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink{
+    0% { background-color: white; }
+    49% { background-color: white; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: white; }
+}
+
+
+
+#aboutMe{
+    color: white;
+}
+
+
+
+#aboutTitle{
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+#techStack{
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+#projects{
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+#testimonials{
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+#contactTitle{
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.aboutContainer{
+    background-image: linear-gradient(black, #1c1c1c, #212121);
+    position: static;
+}
+
+.techContainer{
+    background-image: linear-gradient(#212121, #191970, #27408b);
+}
+
+.projectContainer{
+    background-image: linear-gradient(#27408b, #436eee, #5cacee);
+}
+
+.testimonialContainer{
+    background-image: linear-gradient(#5cacee, #87ceff, #92defd);
+}
+
+.profilePic{
+    margin-bottom: 5%;
+}
+
+#me{
+    border: solid 1px;
+    border-color: white;
+    border-radius: 35px;
+}
+
+
+#marioBG{
+    background-image: url(super-mario-landscape.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    z-index: 1000;
+    /* background-color: #92defd; */
+}
+
+#contactForm{
+    z-index: 9999;
+    width: 45%;
+    background-color: ghostwhite;
+    border: solid 20px #60b14a;
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+}
+
+
+button{
+    background-image: url(../assets/Question_Block_NSMB.png);
+    background-size: cover;
+}
+
+.btn-light{
+    width: 100px; 
+    height: 100px;
+}
+
+
+@media (max-width: 1000px) {
+    #contactForm{
+        width: auto;
+    }
+}

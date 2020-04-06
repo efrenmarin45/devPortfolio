@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/efrenmarin45/devPortfolio#readme",
   "dependencies": {
-    "particles.js": "^2.0.0"
+    "animate.css": "^3.7.2",
+    "particles.js": "^2.0.0",
+    "wow.js": "^1.2.2"
   }
 }

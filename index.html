@@ -5,24 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Efren Marin</title>
 </head>
 <body>
-    <div id="particles-js"></div>
-    <div id="typewriter"></div>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">Efren Marin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section>
+        <div class="container-fluid particleBG">
+            <div id="particles-js">
+                <div id="typewriter"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container-fluid aboutContainer">
+            <h1 id="aboutTitle" class="wow fadeInDown" data-wow-offset="100">About Me</h1>
+            <br>
+            <div class="row justify-content-center">
+                <div class="profilePic col-2">
+                    <img src="./profile-pic9.png" alt="Me" id="me" class="wow fadeInLeft" data-wow-offset="100">
+                </div>
+                <div class="col-5">
+                    <p style="color: white" class="wow fadeInRight" data-wow-offset="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit eros, varius quis volutpat eu, semper vel leo. Proin gravida lacus id nulla lobortis elementum et molestie arcu. Etiam mi enim, congue nec mauris id, rutrum pretium sapien. Nulla sem lacus, laoreet in felis nec, fermentum rutrum diam. Curabitur et urna urna. Etiam arcu ex, luctus in porta id, convallis eget enim. Pellentesque vel orci maximus, blandit dolor vel, ullamcorper lorem. In pellentesque nulla nec felis suscipit facilisis. In mattis, ipsum quis porttitor feugiat, metus quam sagittis felis, at lobortis velit ex eu libero. Praesent erat urna, auctor at ultrices quis, tempus quis lacus.</p>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid techContainer">
+            <h1 id="techStack" class="wow fadeInDown" data-wow-offset="100">What I Can Bring</h1>
+            <p style="color: white" class="wow fadeInRight" data-wow-offset="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit eros, varius quis volutpat eu, semper vel leo. Proin gravida lacus id nulla lobortis elementum et molestie arcu. Etiam mi enim, congue nec mauris id, rutrum pretium sapien. Nulla sem lacus, laoreet in felis nec, fermentum rutrum diam. Curabitur et urna urna. Etiam arcu ex, luctus in porta id, convallis eget enim. Pellentesque vel orci maximus, blandit dolor vel, ullamcorper lorem. In pellentesque nulla nec felis suscipit facilisis. In mattis, ipsum quis porttitor feugiat, metus quam sagittis felis, at lobortis velit ex eu libero. Praesent erat urna, auctor at ultrices quis, tempus quis lacus.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid projectContainer">
+            <h1 id="projects" class="wow fadeInDown" data-wow-offset="100">Projects & Client Work</h1>
+            <p style="color: white" class="wow fadeInRight" data-wow-offset="110">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit eros, varius quis volutpat eu, semper vel leo. Proin gravida lacus id nulla lobortis elementum et molestie arcu. Etiam mi enim, congue nec mauris id, rutrum pretium sapien. Nulla sem lacus, laoreet in felis nec, fermentum rutrum diam. Curabitur et urna urna. Etiam arcu ex, luctus in porta id, convallis eget enim. Pellentesque vel orci maximus, blandit dolor vel, ullamcorper lorem. In pellentesque nulla nec felis suscipit facilisis. In mattis, ipsum quis porttitor feugiat, metus quam sagittis felis, at lobortis velit ex eu libero. Praesent erat urna, auctor at ultrices quis, tempus quis lacus.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid testimonialContainer">
+            <h1 id="testimonials" class="wow fadeInDown" data-wow-offset="100">What My Clients Have To Say</h1>
+            <p style="color: white" class="wow fadeInRight" data-wow-offset="110">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit eros, varius quis volutpat eu, semper vel leo. Proin gravida lacus id nulla lobortis elementum et molestie arcu. Etiam mi enim, congue nec mauris id, rutrum pretium sapien. Nulla sem lacus, laoreet in felis nec, fermentum rutrum diam. Curabitur et urna urna. Etiam arcu ex, luctus in porta id, convallis eget enim. Pellentesque vel orci maximus, blandit dolor vel, ullamcorper lorem. In pellentesque nulla nec felis suscipit facilisis. In mattis, ipsum quis porttitor feugiat, metus quam sagittis felis, at lobortis velit ex eu libero. Praesent erat urna, auctor at ultrices quis, tempus quis lacus.</p>
+        </div>
+    </section>
+
+    <div class="container" id="contactForm">
+            <h1 id="contactTitle" class="wow fadeInDown" data-wow-offset="100">Contact Me</h1>
+            <br>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="validationTooltip01">First and Last Name</label>
+                        <input type="text" name="name" class="form-control" id="inputFirstName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="mb-3">
+                        <label for="validationCustom03">How Can We Help?</label>
+                        <textarea name="message" class="form-control" id="validationCustom03" placeholder="Please tell us about your inquiry" required></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-light "></button>
+                </div>
+                <br>
+                <br>
+                <br>
+            </form>
+        </div>
+
+    <section>
+        <img src="./assets/super-mario-landscape.jpg" alt="mario background" id="marioBG" style="margin: auto; background-repeat: repeat-x">
+    </section>
+
+
 
 
 
 
 
     <footer></footer>
+    <script src="./js/wow.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="particles.js"></script>
-    <script src="script.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
