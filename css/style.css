@@ -96,12 +96,17 @@ p{
 
 
 
+.aboutMe{
+    margin: 2%;
+}
+
+
 #aboutTitle{
     margin: auto;
     text-align: center;
     margin-top: 10%;
     color: white;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 #techStack{
@@ -154,7 +159,9 @@ p{
 }
 
 .profilePic{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 #me{
@@ -171,28 +178,33 @@ p{
     height: auto;
     align-content: center;
     z-index: 1000;
-    /* background-color: #92defd; */
 }
 
 #contactForm{
     z-index: 9999;
     width: 45%;
     background-color: ghostwhite;
-    border: solid 20px #60b14a;
+    border: ridge 10px #60b14a;
     border-radius: 15px;
     margin: auto;
     position: relative;
+    background-size: 45%;
+}
+
+
+form{
+    filter: none;
 }
 
 
 button{
-    background-image: url(../assets/Question_Block_NSMB.png);
     background-size: cover;
 }
 
-.btn-light{
-    width: 100px; 
-    height: 100px;
+.btn-success{
+    width: 125px; 
+    height: 75px;
+    font-size: 24px;
 }
 
 
