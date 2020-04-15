@@ -117,6 +117,17 @@ p{
     margin-bottom: 2%;
 }
 
+#iconStack{
+    /* display: flex; */
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #projects{
     margin: auto;
     text-align: center;
