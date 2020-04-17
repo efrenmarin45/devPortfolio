@@ -2,7 +2,7 @@
   "name": "devportfolio",
   "version": "1.0.0",
   "description": "Personal Portfolio",
-  "main": "index.html",
+  "main": "particles.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,6 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "jquery-gray": "^1.6.0",
-    "particles.js": "^2.0.0",
     "wow.js": "^1.2.2"
   }
 }
