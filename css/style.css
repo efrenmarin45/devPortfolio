@@ -20,11 +20,13 @@ body{
 
 .navbar-brand{
     color: white;
+    font-family: 'Amaranth', sans-serif;
 }
 
 
 .nav-link{
     color: white;
+    font-family: 'Amaranth', sans-serif;
 }
 
 
