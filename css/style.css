@@ -76,6 +76,10 @@ p{
 }
 
 
+.nav-link:hover{
+    color: white;
+}
+
 
 .cursor{
     display: inline-block;
@@ -162,6 +166,21 @@ img.grayscale:hover {
     margin-bottom: 2%;
 }
 
+.testimonialContent{
+    background: #87ceff;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1%;
+    border: solid 5px white;
+    border-radius: 70px;
+}
+
+.tbjLogo{
+    margin-bottom: 5px;
+}
+
 #contactTitle{
     margin: auto;
     text-align: center;
@@ -192,14 +211,6 @@ img.grayscale:hover {
     margin-right: 2%;
     margin-left: 2%;
 }
-
-/* .projectRows{
-    height: 30%;
-} */
-
-/* .row{
-    height: 100px;
-} */
 
 #me{
     border: solid 1px;
