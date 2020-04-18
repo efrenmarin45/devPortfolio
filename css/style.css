@@ -31,6 +31,7 @@ body{
 
 
 section{
+    width: 100%;
     height: 100vh;
     display: flex;
 }
@@ -305,5 +306,39 @@ button{
     }
     #contactForm{
         width: 70%;
+    }
+}
+
+@media (max-width: 414px) {
+    section{
+        height: 100%;
+        width: 100%;
+    }
+    #particles-js{
+        padding-bottom: 150px;
+    }
+    #aboutTitle{
+        font-size: 28px;
+    }
+    #typewriter{
+        top: 20%;
+        font-size: 16px;
+    }
+    #me{
+        margin-left: 23%;
+    }
+    .aboutMe{
+        display: inline-block;
+        text-align: center;
+    }
+    .testimonialContent{
+        width: 364px;
+        padding: 3%;
+        margin-bottom: 25%;
+    }
+    #contactForm{
+        width: 80%;
+        margin-top: 25%;
+        margin-bottom: 10%;
     }
 }
