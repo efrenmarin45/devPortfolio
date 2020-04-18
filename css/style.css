@@ -290,17 +290,16 @@ button{
     font-size: 18px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     #contactForm{
-        width: auto;
+        width: 70%;
+    }
+    #typewriter{
+        top: 20%;
     }
 }
 
 @media (max-width: 768px) {
-    /* .iconStack{
-        width: 75px;
-        height: 75px;
-    } */
     #typewriter{
         top: 20%;
     }
