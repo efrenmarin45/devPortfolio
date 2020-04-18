@@ -1,6 +1,5 @@
 body{
     background-color: black;
-    /* background-image: linear-gradient(#92defd, #7edadc) */
 }
 
 .particleBG{
@@ -134,10 +133,10 @@ p{
     margin-bottom: 2%;
 }
 
-#iconStack{
+/* .iconStack{
     margin: -5%;
     padding: 5px;
-}
+} */
 
 img.grayscale {
     filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
@@ -179,7 +178,7 @@ img.grayscale:hover {
     text-align: center;
     justify-content: center;
     margin: auto;
-    padding: 1%;
+    padding: 2%;
     border: solid 5px white;
     border-radius: 70px;
 }
@@ -297,9 +296,15 @@ button{
     }
 }
 
-@media (max-width: 770px) {
-    .iconStack{
-        width: 110px;
-        height: 110px;
+@media (max-width: 768px) {
+    /* .iconStack{
+        width: 75px;
+        height: 75px;
+    } */
+    #typewriter{
+        top: 20%;
+    }
+    #contactForm{
+        width: 70%;
     }
 }
