@@ -92,10 +92,10 @@
                 <img src="./assets/javascript-logo.svg" height="150px" width="150px" class="img-fluid grayscale">
             </div>
 
-            <div class="iconStack col-lg-3 col-md-4 col-xs-6">
+            <!-- <div class="iconStack col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4"></a>
                 <img src="./assets/jquery.png" height="150px" width="170px" class="img-fluid grayscale">
-            </div>
+            </div> -->
 
             <div class="iconStack col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4"></a>
@@ -132,7 +132,7 @@
             <div class="projectRows wow fadeInLeft" data-wow-offset="110">
                 <ul class="nav nav-tabs justify-content-center" style="font-weight: bold;" id="myTab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link" id="home-tab" data-toggle="tab" href="#tbj" role="tab" aria-controls="home" aria-selected="true">TBJ Janitorial</a>
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#tbj" role="tab" aria-controls="home" aria-selected="true">TBJ Janitorial</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#empTracker" role="tab" aria-controls="profile" aria-selected="false">Employee Tracker</a>
@@ -151,7 +151,12 @@
                     </li>
                 </ul>
                 <div class="tab-content mt-4 text-center" style="color: white; font-size: 22px" id="myTabContent">
-                <div class="tab-pane fade" id="tbj" role="tabpanel" aria-labelledby="project1">Janitorial business site in need of a web presence and a way to receive inquiries. Site built with HTML5, CSS3, Javascript, JQuery, Bootstrap, and Netlify.
+                <div class="tab-pane active" id="tbj" role="tabpanel" aria-labelledby="project1">Janitorial business site in need of a web presence and a way to receive inquiries. Site built with HTML5, CSS3, Javascript, JQuery, Bootstrap, and Netlify.
+                <br>
+                <br>
+                <a href="https://www.tbjjanitorial.com/">
+                    <img src="assets/tbj-SS.png" alt="Image of project"  style="width: 575px; height: 300px; border: white 5px solid; border-radius: 15px">
+                </a>
                 <br>
                 <br>
                 <a type="button" class="btn btn-light" href="https://tbjjanitorial.com/" role="button" style="font-weight: bold">Visit Site</a>
@@ -159,19 +164,41 @@
                 <div class="tab-pane fade" id="empTracker" role="tabpanel" aria-labelledby="project2">This program creates a database where the user can process CRUD actions. They will be able to create employees, departments,and roles as well as view existing ones in the database. The user will also be able to maintain the database by updating or deleting the departments, employees, or roles. Using a CLI, the user can easily make changes and receive instant feedback. Built using Node.JS, MySQL, and Javascript.
                 <br>
                 <br>
+                <a href="https://github.com/efrenmarin45/Employee-Tracker">
+                    <img src="assets/EE-SS.png" alt="Image of project" style="width: 600px; height: 300px; border: white 5px solid; border-radius: 15px">
+                </a>
+                <br>
+                <br>
                 <a type="button" class="btn btn-light" href="https://github.com/efrenmarin45/Employee-Tracker" role="button" style="font-weight: bold">Visit Repo</a>
                 </div>
                 <div class="tab-pane fade" id="codeQuiz" role="tabpanel" aria-labelledby="project3">This program asks the user to help, Harry, better understand some HTML, CSS, and Javascript questions by taking a timed quiz. As the user progresses through, any wrong answers will have a time penalty and any correct answers will award +5 points. A total of 100 points possible. Built using HTML5, CSS3, and Javascript.
                 <br>
                 <br>
+                <a href="https://efrenmarin45.github.io/CodeQuiz/">
+                    <img src="assets/codeQuiz-SS.png" alt="Image of project" style="width: 575px; height: 300px; border: black 5px solid; border-radius: 15px">
+                </a>
+                <br>
+                <br>
                 <a type="button" class="btn btn-light" href="https://github.com/efrenmarin45/CodeQuiz" role="button" style="font-weight: bold">Visit Repo</a>
+                <a type="button" class="btn btn-light" href="https://efrenmarin45.github.io/CodeQuiz/" role="button" style="font-weight: bold">Visit Site</a>
                 </div>
-                <div class="tab-pane fade" id="burgerBoss" role="tabpanel" aria-labelledby="project4">This program works with an existing database that uses CRUD actions. The user will be able to input a specific food item that they'd like the Burger Boss to make for them. Once the user submits their request to the waiter, the item will appear ready to be eaten. The user then has the option to continue ordering or consume their food. For each item eaten, the food will appear separately to show a record of the items eaten. Don't worry, there's no such thing as digital calories for you to worry about! Built using HTML5, CSS3, MySQL, Express.JS, and Javascript.
+                <div class="tab-pane fade" id="burgerBoss" role="tabpanel" aria-labelledby="project4">This program works with an existing database that uses CRUD actions. The user will be able to input a specific food item then consume their food. For each item eaten, the food will appear separately to show a record of the items eaten. Don't worry, there's no such thing as digital calories for you to worry about! Built using HTML5, CSS3, MySQL, Express.JS, and Javascript.
+                <br>
+                <br>
+                <a href="https://radiant-forest-20773.herokuapp.com/">
+                    <img src="assets/burger-SS.png" alt="Image of project" style="width: 575px; height: 350px; border: white 5px solid; border-radius: 15px">
+                </a>
                 <br>
                 <br>
                 <a type="button" class="btn btn-light" href="https://github.com/efrenmarin45/Burger-Boss" role="button" style="font-weight: bold">Visit Repo</a>
+                <a type="button" class="btn btn-light" href="https://radiant-forest-20773.herokuapp.com/" role="button" style="font-weight: bold">Visit Site</a>
                 </div>
                 <div class="tab-pane fade" id="devGen" role="tabpanel" aria-labelledby="project5">This project is meant to work with the Github API to be able to dynamically produce an HTML page with the users Github stats. Being able to simply generate a page using a Github username helps to create an easy snapshot of the users activity. Built using Node.JS, HTML5, CSS3, and Javascript.
+                <br>
+                <br>
+                <a href="https://github.com/efrenmarin45/Developer-Profile-Generator">
+                    <img src="assets/devGen-SS.png" alt="Image of project" style="width: 575px; height: 325px; border: white 5px solid; border-radius: 15px">
+                </a>
                 <br>
                 <br>
                 <a type="button" class="btn btn-light" href="https://github.com/efrenmarin45/Developer-Profile-Generator" role="button" style="font-weight: bold">Visit Repo</a>
@@ -179,6 +206,12 @@
                 <div class="tab-pane fade" id="bmf" role="tabpanel" aria-labelledby="project6">Wholesale fabrics business who needed an internal inverntory management tool. Built using React, Express.JS, MongoDB, Node.JS, and SASS.
                 <br>
                 <br>
+                <a href="https://bmf-inventory-management.herokuapp.com">
+                    <img src="assets/blueMoon-SS.png" alt="Image of project" style="width: 575px; height: 300px; border: silver 5px solid; border-radius: 15px">
+                </a>
+                <br>
+                <br>
+                <a type="button" class="btn btn-light" href="https://github.com/efrenmarin45/bmf-inventory-management-system" role="button" style="font-weight: bold">Visit Repo</a>
                 <a type="button" class="btn btn-light" href="https://bmf-inventory-management.herokuapp.com/" role="button" style="font-weight: bold">Visit Tool</a>
                 </div>
                 </div>
