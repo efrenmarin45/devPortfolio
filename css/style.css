@@ -301,7 +301,7 @@ button{
 
 @media (max-width: 768px) {
     #typewriter{
-        top: 20%;
+        top: 40%;
     }
     #contactForm{
         width: 70%;
@@ -310,8 +310,8 @@ button{
 
 @media (max-width: 414px) {
     section{
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: auto;
     }
     #particles-js{
         padding-bottom: 150px;
@@ -332,15 +332,12 @@ button{
     }
     .testimonialContent{
         width: 364px;
-        padding: 3%;
+        padding: 5%;
         margin-bottom: 25%;
     }
     #contactForm{
         width: 80%;
         margin-top: 25%;
         margin-bottom: 10%;
-    }
-    #tbj-SS{
-        display: none;
     }
 }
