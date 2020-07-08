@@ -209,7 +209,7 @@ img.grayscale:hover {
 }
 
 .contactContainer{
-    background-image: linear-gradient( #436eee, #5c5e99);
+    background-image: linear-gradient( #436eee, #5c5e99, #5c5e99);
     border-bottom: solid 8px silver;
 }
 
@@ -229,7 +229,6 @@ img.grayscale:hover {
 #contactForm{
     z-index: 1;
     width: 45%;
-    background-color: ghostwhite;
     border: ridge 10px silver;
     border-radius: 15px;
     margin: auto;
@@ -258,7 +257,6 @@ button{
 }
 
 #footerImage{
-    background-image: url(artFooter.png);
     background-size: cover;
     max-width: 100%;
     height: auto;
