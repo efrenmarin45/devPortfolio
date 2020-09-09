@@ -288,6 +288,10 @@ button{
     font-size: 18px;
 }
 
+.hide {
+    display: none;
+}
+
 @media (max-width: 1024px) {
     #contactForm{
         width: 70%;
